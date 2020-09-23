@@ -4,19 +4,10 @@
 			"path": "LabGuide"
 		},
 		{
-			"path": "A1-LeapChecker"
+			"path": "A1-MASHGame"
 		},
 		{
-			"path": "A2-EvenNumberSum"
-		},
-		{
-			"path": "A3-HigherLower"
-		},
-		{
-			"path": "A4-MASHGame"
-		},
-		{
-			"path": "A5-Gradebook"
+			"path": "A2-Gradebook"
 		}
 	],
 	"settings": {
