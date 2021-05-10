@@ -31,8 +31,20 @@ For reproducibility needed for auto-grading, seed the program with a value of 2.
 
 Note: A common student mistake is to create an instance of Random before each call to rand.nextInt(). But seeding should only be done once, at the start of the program, after which rand.nextInt() can be called any number of times. 
 
-Your program must define and call the following method that randomly picks 0 or 1 and returns "heads" or "tails".  Assume the value 0 represents "heads" and 1 represents "tails".  
-```public static String headsOrTails(Random rand)``` 
+The program must implement a method named *headsOrTails* that will perform the random selection. The javadoc comment below provides details on the expected behavior of this method as well as the required header (signature) of the *headsOrTails* method.
+```
+/**
+ * Randomly pick 0 or 1 using the specified Random object and use them to 
+ *    represent "heads" or "tails" respectively. Assume the value 0 represents
+ *    "heads" and the value 1 represents "tails."  Return a String that 
+ *    contains the randomly selected word.
+ *
+ * @param reference to Random object to use for calls to nextInt()
+ * @return String containing the randomly selected "heads" or "tails"
+ */
+
+ public static String headsOrTails(Random rand)
+ ``` 
 
 
 ### Implementation Guide
@@ -62,8 +74,20 @@ For reproducibility needed for auto-grading, seed the program with a value of 2.
 
 Note: A common student mistake is to create an instance of Random before each call to rand.nextInt(). But seeding should only be done once, at the start of the program, after which rand.nextInt() can be called any number of times. 
 
-Your program must define and call the following method that randomly picks 0 or 1 and returns the boolean values of true or false.  Assume the value true represents "heads" and false represents "tails".  
-```public static boolean trueOrFalse(Random rand)``` 
+The program must implement a method named *truesOrFalse* that will perform the random selection. The javadoc comment below provides details on the expected behavior of this method as well as the required header (signature) of the *truesOrFalse* method. Please **DO NOT** use the *nextBoolean()* method from the Random object to implement this method.
+```
+/**
+ * Randomly pick 0 or 1 using the specified Random object and the *nextInt()* method to 
+ *    represent **true** or false **respectively**. Assume the value 0 represents
+ *    true and the value 1 represents false.  Return a String that 
+ *    contains the randomly selected word.
+ *
+ * @param reference to Random object to use for calls to *nextInt()*
+ * @return boolean containing the randomly selected true or false
+ */
+
+ public static boolean trueOrFalse(Random rand)
+ ```
 
 ### Implementation Guide
 1. Expand the folder named A2-CoinFlipV2 and create a new file named CoinFlipV2.java
@@ -115,8 +139,20 @@ the output is:
 0
 ```
 
-Your program must define and call the following method that returns the number of times the input character appears in the input string.   
-```public static int countCharacters(char userChar, String userString)```
+The program must implement a method named *countCharacters* that will perform the counting. The javadoc comment below provides details on the expected behavior of this method as well as the required header (signature) of the *countCharacters* method.   
+
+```
+/**
+ * Count the number of times that the specified character, userChar, occurrs in 
+ *  the specified String, userString.  Return that number to the caller as an integer.
+ * 
+ * @param userChar character to count occurrences of in String
+ * @param userString text to scan for occurrences of userChar
+ * @return the number of times userChar is found in userString
+ */
+
+public static int countCharacters(char userChar, String userString)
+```
 
 ### Implementation Guide
 1. Expand the folder named A3-CharacterCounter and create a new file named CharacterCounter.java
