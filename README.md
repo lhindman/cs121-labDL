@@ -57,7 +57,7 @@ The program must implement a method named *headsOrTails* that will perform the r
 ## Activity 2 - CoinFlip (revisited)
 ### Problem Description
 
-Write a program that simulates flipping a coin to make decisions. The input is how many decisions are needed, and the output is either heads or tails. Assume the input is a value greater than 0. The behavior and expected output of this program (from the user's perspective) should be identical to that of Activity 1.
+Write a program that simulates flipping a coin to make decisions. The input is how many decisions are needed, and the output is either "heads" (true) or "tails" (false). Assume the input is a value greater than 0. The behavior and expected output of this program (from the user's perspective) should be identical to that of Activity 1.
 
 Ex: If the input is:
 ```
