@@ -11,7 +11,122 @@ Please review the [CS121 Style Guide](https://docs.google.com/document/d/1LWbGQB
 - Code must run without errors or warnings on safe-path and edge test cases
 - More to come as we learn about input validation and exception handling
 
-## Activity 1 - M.A.S.H. Game
+## Activity 1 - CoinFlip
+### Problem Description
+
+Write a program that simulates flipping a coin to make decisions. The input is how many decisions are needed, and the output is either heads or tails. Assume the input is a value greater than 0.
+
+Ex: If the input is:
+```
+3
+```
+the output is:
+
+```
+tails
+heads
+tails
+```
+For reproducibility needed for auto-grading, seed the program with a value of 2. In a real program, you would seed with the current time. In that case, every program's output would be different, which is what is desired but can't be auto-graded. 
+
+Note: A common student mistake is to create an instance of Random before each call to rand.nextInt(). But seeding should only be done once, at the start of the program, after which rand.nextInt() can be called any number of times. 
+
+Your program must define and call the following method that randomly picks 0 or 1 and returns "heads" or "tails".  Assume the value 0 represents "heads" and 1 represents "tails".  
+```public static String headsOrTails(Random rand)``` 
+
+
+### Implementation Guide
+1. Expand the folder named A1-CoinFlip and create a new file named CoinFlip.java
+2. Design a program to satisfy the requirements in the Problem Description and enter the program code in CoinFlip.java
+3. Test the program using the run link above the main method. Carefully think about each of the different cases you'll need to test for to verify that the application is functioning properly.
+4. Commit the changes to your local repository with a message stating that Activity 1 is completed.
+5. Push the changes from your local repository to the github classroom repository.
+
+## Activity 2 - CoinFlip (revisited)
+### Problem Description
+
+Write a program that simulates flipping a coin to make decisions. The input is how many decisions are needed, and the output is either heads or tails. Assume the input is a value greater than 0. The behavior and expected output of this program (from the user's perspective) should be identical to that of Activity 1.
+
+Ex: If the input is:
+```
+3
+```
+the output is:
+
+```
+tails
+heads
+tails
+```
+For reproducibility needed for auto-grading, seed the program with a value of 2. In a real program, you would seed with the current time. In that case, every program's output would be different, which is what is desired but can't be auto-graded. 
+
+Note: A common student mistake is to create an instance of Random before each call to rand.nextInt(). But seeding should only be done once, at the start of the program, after which rand.nextInt() can be called any number of times. 
+
+Your program must define and call the following method that randomly picks 0 or 1 and returns the boolean values of true or false.  Assume the value true represents "heads" and false represents "tails".  
+```public static boolean trueOrFalse(Random rand)``` 
+
+### Implementation Guide
+1. Expand the folder named A2-CoinFlipV2 and create a new file named CoinFlipV2.java
+2. Design a program to satisfy the requirements in the Problem Description and enter the program code in CoinFlipV2.java
+3. Test the program using the run link above the main method. Carefully think about each of the different cases you'll need to test for to verify that the application is functioning properly.
+4. Commit the changes to your local repository with a message stating that Activity 2 is completed.
+5. Push the changes from your local repository to the github classroom repository.
+
+## Activity 3 - Counting Characters
+### Problem Description
+
+Write a program whose input is a character and a string, and whose output indicates the number of times the character appears in the string.
+
+Ex: If the input is: 
+```
+n Monday
+```
+the output is:
+```
+1
+```
+
+Ex: If the input is: 
+```
+z Today is Monday
+```
+the output is:
+```
+0
+```
+
+Ex: If the input is: 
+```
+n It's a sunny day
+```
+the output is:
+```
+2
+``` 
+
+Case matters. n is different than N. 
+
+Ex: If the input is: 
+```
+n Nobody
+```
+the output is:
+```
+0
+```
+
+Your program must define and call the following method that returns the number of times the input character appears in the input string.   
+```public static int countCharacters(char userChar, String userString)```
+
+### Implementation Guide
+1. Expand the folder named A3-CharacterCounter and create a new file named CharacterCounter.java
+2. Design a program to satisfy the requirements in the Problem Description and enter the program code in CharacterCounter.java
+3. Test the program using the run link above the main method. Carefully think about each of the different cases you'll need to test for to verify that the application is functioning properly.
+4. Commit the changes to your local repository with a message stating that Activity 3 is completed.
+5. Push the changes from your local repository to the github classroom repository.
+
+
+## Activity 4 - M.A.S.H. Game
 ### Problem Description
 M.A.S.H. is a text-based game that will predict your future!  M.A.S.H. is an abbreviation for the potential future places of residence: Mansion, Apartment, Shack, House. :)  
 
@@ -21,21 +136,21 @@ The details for this activity are in the guide below:
 
 
 ### Impementation Guide
-1. Expand the folder named A1-MASHGame and open the file named MASHGame.java
+1. Expand the folder named A4-MASHGame and open the file named MASHGame.java
 2. Modify the existing MASHGame.java program as specified in the M.A.S.H. Activity Guide
 3. Test the program using the run link above the main method
-4. Commit the changes to your local repository with a message stating that Activity 1 is completed.
+4. Commit the changes to your local repository with a message stating that Activity 4 is completed.
 5. Push the changes from your local repository to the github classroom repository.
 
-## Activity 2 - Gradebook
+## Activity 5 - Gradebook
 ### Problem Description
 This activity demonstrates how to handle File I/O and Exception handling in Java by creating a simple Gradebook application. The details for this activity are in the guide below:
 
 [Gradebook Activity Guide](https://docs.google.com/document/d/133y2yFQUiQxowdil4mygw4jl01NunzAJwTCxC2YfB2A/edit?usp=sharing)
 
 ### Impementation Guide
-1. Expand the folder named A2-Gradebook and open the file named Gradebook.java
+1. Expand the folder named A5-Gradebook and open the file named Gradebook.java
 2. Modify the existing Gradebook.java program as specified in the Gradebook Activity Guide
 3. Test the program using the run link above the main method
-4. Commit the changes to your local repository with a message stating that Activity 2 is completed.
+4. Commit the changes to your local repository with a message stating that Activity 5 is completed.
 5. Push the changes from your local repository to the github classroom repository.
