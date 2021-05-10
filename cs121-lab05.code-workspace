@@ -4,10 +4,19 @@
 			"path": "LabGuide"
 		},
 		{
-			"path": "A1-MASHGame"
+			"path": "A1-CoinFlip"
 		},
 		{
-			"path": "A2-Gradebook"
+			"path": "A2-CoinFlipV2"
+		},
+		{
+			"path": "A3-CharacterCounter"
+		},
+		{
+			"path": "A4-MASHGame"
+		},
+		{
+			"path": "A5-Gradebook"
 		}
 	],
 	"settings": {
